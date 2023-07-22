@@ -17,7 +17,7 @@ const Nav = () => {
     <>
       <Wrapper>
         <div className="logo">
-          <img src={AsfLogo} alt="logo" />
+          <img src={AsfLogo} alt="logo" className="logoImg"/>
         </div>
 
         <div className="nav-links" ref={navRef}>
@@ -27,14 +27,11 @@ const Nav = () => {
           <NavLink to="/library" className="link">
             Library
           </NavLink>
-          {/* <NavLink to="/about" className="link">
-            About Us
-          </NavLink> */}
-          <button className="btn" onClick={showNavBar}>
+          <button className="nav-btn close-btn" onClick={showNavBar}>
             <FaTimes />
           </button>
         </div>
-        <button className="btn" onClick={showNavBar}>
+        <button className="nav-btn" onClick={showNavBar}>
           <FaBars />
         </button>
       </Wrapper>

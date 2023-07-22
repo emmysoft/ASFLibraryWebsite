@@ -49,7 +49,13 @@ export const Wrapper = styled.div`
     }
   }
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 768px) {
+    background-image: url(${Books});
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
     .hero {
       display: flex;
       flex-direction: column;
@@ -58,10 +64,11 @@ export const Wrapper = styled.div`
       gap: 20px;
 
       .hero_topic {
-        font-weight: 500;
+        font-weight: 700;
         font-size: 24px;
         width: 400px;
         height: 150px;
+        line-height: 2.5rem;
         text-align: center;
       }
       .hero_text {
@@ -85,92 +92,107 @@ export const BookWrapper = styled.div`
 
   .book_category {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 35px;
     margin: 70px;
 
-    .cat_1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px;
-      border-radius: 10px;
-      border: 1px solid #fff;
-      box-shadow: #bf413e;
-      padding: 24px;
-      background-color: #fff;
-      width: 40%;
-      box-shadow: 1px 1px 1px 1px #808080;
-      &:hover {
-        transition: transform 0.2s;
-        transform: scale(0.9);
-      }
-
-      .book1 {
-        width: 300px;
-        height: 350px;
-        border-radius: 8px;
-      }
-      .book_types {
-        color: #bf413e;
-      }
+    .book_topic {
+      font-weight: 600;
+      font-size: 24px;
+      text-align: center;
+      color: #bf413e;
+      height: 70px;
     }
-    .cat_2 {
+    .cat {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
-      align-items: flex-start;
-      gap: 20px;
-      border-radius: 10px;
-      border: 1px solid #fff;
-      box-shadow: #bf413e;
-      padding: 24px;
-      background-color: #fff;
-      width: 40%;
-      box-shadow: 1px 1px 1px 1px #808080;
+      align-items: center;
+      gap: 35px;
 
-      &:hover {
-        transition: transform 0.2s;
-        transform: scale(1.2);
-      }
+      .cat_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        box-shadow: #bf413e;
+        padding: 24px;
+        background-color: #fff;
+        width: 40%;
+        box-shadow: 1px 1px 1px 1px #bf413e;
+        &:hover {
+          transition: transform 0.2s;
+          transform: scale(0.9);
+        }
 
-      .book2 {
-        width: 300px;
-        height: 350px;
-        border-radius: 8px;
+        .book1 {
+          width: 300px;
+          height: 350px;
+          border-radius: 8px;
+        }
+        .book_types {
+          color: #bf413e;
+        }
       }
-      .book_types {
-        color: #bf413e;
-      }
-    }
-    .cat_3 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px;
-      border-radius: 10px;
-      border: 1px solid #fff;
-      box-shadow: #bf413e;
-      padding: 24px;
-      background-color: #fff;
-      width: 40%;
-      box-shadow: 1px 1px 1px 1px #808080;
-      &:hover {
-        transition: transform 0.2s;
-        transform: scale(0.9);
-      }
+      .cat_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        box-shadow: #bf413e;
+        padding: 24px;
+        background-color: #fff;
+        width: 40%;
+        box-shadow: 1px 1px 1px 1px #bf413e;
 
-      .book3 {
-        width: 300px;
-        height: 350px;
-        border-radius: 8px;
+        &:hover {
+          transition: transform 0.2s;
+          transform: scale(1.2);
+        }
+
+        .book2 {
+          width: 300px;
+          height: 350px;
+          border-radius: 8px;
+        }
+        .book_types {
+          color: #bf413e;
+        }
       }
-      .book_types {
-        color: #bf413e;
+      .cat_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        box-shadow: #bf413e;
+        padding: 24px;
+        background-color: #fff;
+        width: 40%;
+        box-shadow: 1px 1px 1px 1px #bf413e;
+        &:hover {
+          transition: transform 0.2s;
+          transform: scale(0.9);
+        }
+
+        .book3 {
+          width: 300px;
+          height: 350px;
+          border-radius: 8px;
+        }
+        .book_types {
+          color: #bf413e;
+        }
       }
     }
   }
@@ -201,6 +223,134 @@ export const BookWrapper = styled.div`
         background-color: #fff;
         transform: 3s ease-in-out;
         color: #bf413e;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .book_category {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      .book_topic {
+        font-weight: 600;
+        font-size: 30px;
+        color: #bf413e;
+        text-align: center;
+      }
+
+      .cat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+
+        .cat_1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          border-radius: 10px;
+          border: 1px solid #fff;
+          box-shadow: #bf413e;
+          padding: 30px;
+          background-color: #fff;
+          width: 70%;
+          box-shadow: 1px 1px 1px 1px #bf413e;
+
+          .book1 {
+            border-radius: 8px;
+            width: 200px;
+            height: 200px;
+          }
+          .info {
+            width: 150px;
+          }
+        }
+        .cat_2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          border-radius: 10px;
+          padding: 30px;
+          border: 1px solid #fff;
+          box-shadow: #bf413e;
+          background-color: #fff;
+          width: 70%;
+          box-shadow: 1px 1px 1px 1px #bf413e;
+
+          .book2 {
+            border-radius: 8px;
+            width: 200px;
+            height: 200px;
+          }
+          .info {
+            width: 150px;
+          }
+        }
+        .cat_3 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          border-radius: 10px;
+          border: 1px solid #fff;
+          box-shadow: #bf413e;
+          padding: 30px;
+          background-color: #fff;
+          width: 70%;
+          box-shadow: 1px 1px 1px 1px #bf413e;
+
+          .book3 {
+            border-radius: 8px;
+            width: 200px;
+            height: 200px;
+          }
+          .info {
+            width: 150px;
+          }
+        }
+      }
+    }
+    .library {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: #bf413e;
+      width: 100%;
+      height: 100%;
+
+      .library_link {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 12px 20px;
+        border: 1px solid #fff;
+        width: 200px;
+        margin: 40px;
+
+        &:hover {
+          background-color: #fff;
+          transform: 3s ease-in-out;
+          color: #bf413e;
+        }
       }
     }
   }
