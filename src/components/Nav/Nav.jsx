@@ -27,9 +27,9 @@ const Nav = () => {
           <NavLink to="/library" className="link">
             Library
           </NavLink>
-          <NavLink to="/about" className="link">
+          {/* <NavLink to="/about" className="link">
             About Us
-          </NavLink>
+          </NavLink> */}
           <button className="btn" onClick={showNavBar}>
             <FaTimes />
           </button>

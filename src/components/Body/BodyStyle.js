@@ -1,5 +1,14 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import Books from "../../assets/Books.png";
+
+const slideIn = keyframes`
+from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+`;
 
 export const Wrapper = styled.div`
   background-image: url(${Books});
@@ -17,6 +26,7 @@ export const Wrapper = styled.div`
     align-items: flex-start;
     gap: 30px;
     padding: 12rem;
+    animation: ${slideIn} 2s;
 
     .hero_topic {
       font-weight: 700;
@@ -93,7 +103,7 @@ export const BookWrapper = styled.div`
       padding: 24px;
       background-color: #fff;
       width: 40%;
-      box-shadow: 2px 2px 2px 2px #808080;
+      box-shadow: 1px 1px 1px 1px #808080;
       &:hover {
         transition: transform 0.2s;
         transform: scale(0.9);
@@ -120,11 +130,11 @@ export const BookWrapper = styled.div`
       padding: 24px;
       background-color: #fff;
       width: 40%;
-      box-shadow: 2px 2px 2px 2px #808080;
+      box-shadow: 1px 1px 1px 1px #808080;
 
       &:hover {
         transition: transform 0.2s;
-        transform: scale(0.9);
+        transform: scale(1.2);
       }
 
       .book2 {
@@ -148,7 +158,7 @@ export const BookWrapper = styled.div`
       padding: 24px;
       background-color: #fff;
       width: 40%;
-      box-shadow: 2px 2px 2px 2px #808080;
+      box-shadow: 1px 1px 1px 1px #808080;
       &:hover {
         transition: transform 0.2s;
         transform: scale(0.9);
