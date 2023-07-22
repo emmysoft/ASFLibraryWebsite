@@ -39,7 +39,7 @@ export const Wrapper = styled.div`
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    gap: 35px;
+    gap: 40px;
 
     .link {
       font-size: 20px;

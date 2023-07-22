@@ -155,7 +155,7 @@ export const BookWrapper = styled.div`
 
         &:hover {
           transition: transform 0.2s;
-          transform: scale(1.2);
+          transform: scale(0.9);
         }
 
         .book2 {
@@ -265,17 +265,17 @@ export const BookWrapper = styled.div`
           box-shadow: #bf413e;
           padding: 30px;
           background-color: #fff;
-          width: 300px;
+          width: 270px;
           box-shadow: 5px 5px 5px 5px #808080;
 
           .book1 {
             border-radius: 8px;
-            width: 300px;
+            width: 270px;
             height: 350px;
             margin: 0 auto;
           }
           .info {
-            width: 150px;
+            width: 200px;
           }
         }
         .cat_2 {
@@ -288,17 +288,17 @@ export const BookWrapper = styled.div`
           border: 1px solid #fff;
           box-shadow: #bf413e;
           background-color: #fff;
-          width: 300px;
+          width: 270px;
           box-shadow: 5px 5px 5px 5px #808080;
 
           .book2 {
             border-radius: 8px;
-            width: 300px;
+            width: 270px;
             height: 350px;
             margin: 0 auto;
           }
           .info {
-            width: 150px;
+            width: 200px;
           }
         }
         .cat_3 {
@@ -311,17 +311,17 @@ export const BookWrapper = styled.div`
           box-shadow: #bf413e;
           padding: 30px;
           background-color: #fff;
-          width: 300px;
+          width: 270px;
           box-shadow: 5px 5px 5px 5px #808080;
 
           .book3 {
             border-radius: 8px;
-            width: 300px;
+            width: 270px;
             height: 350px;
             margin: 0 auto;
           }
           .info {
-            width: 150px;
+            width: 200px;
           }
         }
       }
