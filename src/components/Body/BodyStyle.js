@@ -138,6 +138,13 @@ export const BookWrapper = styled.div`
         .book_types {
           color: #bf413e;
         }
+        .book-link {
+          text-decoration: none;
+          border: 2px solid #808080;
+          border-radius: 15px;
+          color: #808080;
+          padding: 12px;
+        }
       }
       .cat_2 {
         display: flex;
@@ -166,6 +173,13 @@ export const BookWrapper = styled.div`
         .book_types {
           color: #bf413e;
         }
+        .book-link {
+          text-decoration: none;
+          border: 2px solid #808080;
+          border-radius: 15px;
+          color: #808080;
+          padding: 12px;
+        }
       }
       .cat_3 {
         display: flex;
@@ -192,6 +206,13 @@ export const BookWrapper = styled.div`
         }
         .book_types {
           color: #bf413e;
+        }
+        .book-link {
+          text-decoration: none;
+          border: 2px solid #808080;
+          border-radius: 15px;
+          color: #808080;
+          padding: 12px;
         }
       }
     }
