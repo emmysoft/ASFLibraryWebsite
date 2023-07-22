@@ -13,13 +13,10 @@ const Footer = () => {
           <img src={AsfLogo} alt="logo" className="logo_style" />
         </div>
         <div className="socials">
-          <NavLink to="https://www.facebook.com/">
+          <NavLink to="https://www.facebook.com/Asffutang?mibextid=9R9pXO">
             <FaFacebook className="social1" />
           </NavLink>
-          <NavLink to="https://www.youtube.com/">
-            <FaYoutube className="social2" />
-          </NavLink>
-          <NavLink to="https://www.instagram.com/">
+          <NavLink to="https://www.instagram.com/asffutang/">
             <FaInstagram className="social3" />
           </NavLink>
         </div>

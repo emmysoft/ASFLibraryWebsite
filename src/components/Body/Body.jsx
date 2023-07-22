@@ -29,7 +29,13 @@ const Body = () => {
               <p className="info">
                 books on Spirituality, the Church, Christianity and many more...{" "}
               </p>
-              <NavLink to="/library">Read More</NavLink>
+              <NavLink
+                to="https://drive.google.com/drive/folders/1MSbugMQEDOIeW8FqrLHvZVMbn5b-_tiD"
+                className="book-link"
+                target="_blank"
+              >
+                Check here
+              </NavLink>
             </div>
             <div className="cat_2">
               <img src={maths} alt="books" className="book2" />
@@ -37,7 +43,13 @@ const Body = () => {
               <p className="info">
                 Course Materials, handouts, Past Questions and many more...{" "}
               </p>
-              <NavLink to="/library">Read More</NavLink>
+              <NavLink
+                to="https://drive.google.com/drive/folders/1Rec2TRhQUBIKy3pUDoqnT-O78vwacy2G"
+                className="book-link"
+                target="_blank"
+              >
+                Check here
+              </NavLink>
             </div>
             <div className="cat_3">
               <img src={monk} alt="books" className="book3" />
@@ -46,12 +58,22 @@ const Body = () => {
                 mind changing books, transformational, and financial books and
                 many more...{" "}
               </p>
-              <NavLink to="/library">Read More</NavLink>
+              <NavLink
+                to="https://drive.google.com/drive/folders/1bWJkN5F5MK3cTqLdNpeqLgP9a5RR5aJf"
+                className="book-link"
+                target="_blank"
+              >
+                Check here
+              </NavLink>
             </div>
           </div>
         </div>
         <div className="library">
-          <NavLink to="/" className={"library_link"}>
+          <NavLink
+            to="https://drive.google.com/drive/"
+            className={"library_link"}
+            target="_blank"
+          >
             Visit our Library
           </NavLink>
         </div>

@@ -17,14 +17,18 @@ const Nav = () => {
     <>
       <Wrapper>
         <div className="logo">
-          <img src={AsfLogo} alt="logo" className="logoImg"/>
+          <img src={AsfLogo} alt="logo" className="logoImg" />
         </div>
 
         <div className="nav-links" ref={navRef}>
           <NavLink to="/" className="link">
             Home
           </NavLink>
-          <NavLink to="/library" className="link">
+          <NavLink
+            to="https://drive.google.com/drive/"
+            className="link"
+            target="blank"
+          >
             Library
           </NavLink>
           <button className="nav-btn close-btn" onClick={showNavBar}>

@@ -277,6 +277,13 @@ export const BookWrapper = styled.div`
           .info {
             width: 200px;
           }
+          .book-link {
+            text-decoration: none;
+            border: 1px solid #808080;
+            border-radius: 15px;
+            color: #808080;
+            padding: 12px;
+          }
         }
         .cat_2 {
           display: flex;
@@ -300,6 +307,13 @@ export const BookWrapper = styled.div`
           .info {
             width: 200px;
           }
+          .book-link {
+            text-decoration: none;
+            border: 1px solid #808080;
+            border-radius: 15px;
+            color: #808080;
+            padding: 12px;
+          }
         }
         .cat_3 {
           display: flex;
@@ -322,6 +336,13 @@ export const BookWrapper = styled.div`
           }
           .info {
             width: 200px;
+          }
+          .book-link {
+            text-decoration: none;
+            border: 2px solid #808080;
+            border-radius: 15px;
+            color: #808080;
+            padding: 12px;
           }
         }
       }
