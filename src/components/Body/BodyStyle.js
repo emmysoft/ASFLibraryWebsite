@@ -124,7 +124,7 @@ export const BookWrapper = styled.div`
         padding: 24px;
         background-color: #fff;
         width: 40%;
-        box-shadow: 1px 1px 1px 1px #bf413e;
+        box-shadow: 5px 5px 5px 5px #808080;
         &:hover {
           transition: transform 0.2s;
           transform: scale(0.9);
@@ -151,7 +151,7 @@ export const BookWrapper = styled.div`
         padding: 24px;
         background-color: #fff;
         width: 40%;
-        box-shadow: 1px 1px 1px 1px #bf413e;
+        box-shadow: 5px 5px 5px 5px #808080;
 
         &:hover {
           transition: transform 0.2s;
@@ -179,7 +179,7 @@ export const BookWrapper = styled.div`
         padding: 24px;
         background-color: #fff;
         width: 40%;
-        box-shadow: 1px 1px 1px 1px #bf413e;
+        box-shadow: 5px 5px 5px 5px #808080;
         &:hover {
           transition: transform 0.2s;
           transform: scale(0.9);
@@ -265,13 +265,14 @@ export const BookWrapper = styled.div`
           box-shadow: #bf413e;
           padding: 30px;
           background-color: #fff;
-          width: 70%;
-          box-shadow: 1px 1px 1px 1px #bf413e;
+          width: 300px;
+          box-shadow: 5px 5px 5px 5px #808080;
 
           .book1 {
             border-radius: 8px;
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 350px;
+            margin: 0 auto;
           }
           .info {
             width: 150px;
@@ -287,13 +288,14 @@ export const BookWrapper = styled.div`
           border: 1px solid #fff;
           box-shadow: #bf413e;
           background-color: #fff;
-          width: 70%;
-          box-shadow: 1px 1px 1px 1px #bf413e;
+          width: 300px;
+          box-shadow: 5px 5px 5px 5px #808080;
 
           .book2 {
             border-radius: 8px;
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 350px;
+            margin: 0 auto;
           }
           .info {
             width: 150px;
@@ -309,13 +311,14 @@ export const BookWrapper = styled.div`
           box-shadow: #bf413e;
           padding: 30px;
           background-color: #fff;
-          width: 70%;
-          box-shadow: 1px 1px 1px 1px #bf413e;
+          width: 300px;
+          box-shadow: 5px 5px 5px 5px #808080;
 
           .book3 {
             border-radius: 8px;
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 350px;
+            margin: 0 auto;
           }
           .info {
             width: 150px;
