@@ -29,7 +29,7 @@ export const Wrapper = styled.div`
     animation: ${slideIn} 2s;
 
     .hero_topic {
-      font-weight: 700;
+      font-weight: bold;
       font-size: 70px;
       width: 700px;
       height: 200px;
