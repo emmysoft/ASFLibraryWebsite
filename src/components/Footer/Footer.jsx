@@ -24,7 +24,16 @@ const Footer = () => {
           All Rights Reserved &copy; Anglican Student's Fellowship
         </p>
       </FooterWrapper>
-      <div style={{ display: "flex", justifyContent: "center", padding: 15 }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: 15,
+          gap: 8
+        }}
+      >
         <NavLink
           to="https://wa.me/+2348149998467"
           style={{
@@ -36,6 +45,10 @@ const Footer = () => {
         >
           Developed by Emmysoft
         </NavLink>
+        <p style={{ textAlign: "center", fontWeight: 400, fontSize: 15 }}>
+          The glory tabernacle of Anglican student fellowship. Block J, Plot
+          2&3, samuel atibioke family layout iloyin, Futa southgate
+        </p>
       </div>
     </>
   );
