@@ -25,7 +25,7 @@ const Nav = () => {
             Home
           </NavLink>
           <NavLink
-            to="https://drive.google.com/drive/"
+            to="https://drive.google.com/drive/folders/1Rec2TRhQUBIKy3pUDoqnT-O78vwacy2G"
             className="link"
             target="blank"
           >

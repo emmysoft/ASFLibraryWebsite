@@ -32,6 +32,7 @@ const Footer = () => {
             color: "#000",
             textAlign: "center",
           }}
+          target="_blank"
         >
           Developed by Emmysoft
         </NavLink>

@@ -70,7 +70,7 @@ const Body = () => {
         </div>
         <div className="library">
           <NavLink
-            to="https://drive.google.com/drive/"
+            to="https://drive.google.com/drive/folders/1Rec2TRhQUBIKy3pUDoqnT-O78vwacy2G"
             className={"library_link"}
             target="_blank"
           >
